@@ -1,0 +1,36 @@
+{
+  "name": "esslint",
+  "version": "0.0.1",
+  "description": "eslint stylelint",
+  "main": " ",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint --cache --cache-location=.eslintcache --ext .js,.jsx src/ --fix",
+    "slint": "./node_modules/.bin/stylelint **/*.less --cache --cache-location .stylelintcache --config .stylelintrc.js --fix",
+    "precommit": "npm run lint && npm run slint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xQuotes/esslint.git"
+  },
+  "keywords": [
+    "eslint",
+    "stylelint"
+  ],
+  "author": "xQuotes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xQuotes/esslint/issues"
+  },
+  "homepage": "https://github.com/xQuotes/esslint#readme",
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.4.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "husky": "^0.14.3",
+    "stylelint": "^8.0.0",
+    "stylelint-config-standard": "^17.0.0"
+  }
+}

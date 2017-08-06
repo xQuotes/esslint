@@ -17,8 +17,8 @@
 
 ### [ESLint](http://eslint.org)
 
-	- [babel-eslint](https://www.npmjs.com/package/babel-eslint)
-	- [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
+- [babel-eslint](https://www.npmjs.com/package/babel-eslint)
+- [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
 
 ### [StyleLint](https://stylelint.io/)
 
