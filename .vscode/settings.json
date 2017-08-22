@@ -5,7 +5,9 @@
   "eslint.options": {
     "configFile": ".eslintrc.js"
   },
-  "prettier.eslintIntegration": true,
+  "stylelint.enable": true,
   "css.validate": false,
-  "stylelint.enable": true
+  "prettier.eslintIntegration": true,
+  "prettier.singleQuote": true,
+  "prettier.semi": false
 }
