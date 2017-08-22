@@ -16,9 +16,7 @@
 
 ## 工具
 
-### [ESLint](http://eslint.org)
-
-DEMO [.eslintrc.js](./.eslintrc.js)
+### JS 代码检测 [ESLint](http://eslint.org)
 
 -   错误级别
 
@@ -29,18 +27,21 @@ DEMO [.eslintrc.js](./.eslintrc.js)
 -   [babel-eslint](https://github.com/babel/babel-eslint)
 -   [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
 
-### [StyleLint](https://github.com/stylelint/stylelint)
+### CSS 代码检测 [StyleLint](https://github.com/stylelint/stylelint)
 
-### [Prettier](https://github.com/prettier/prettier)
+### 代码格式化工具 [Prettier](https://github.com/prettier/prettier)
 
-### [husky](https://github.com/typicode/husky)
+### 配置 Git commit/push 之前检测代码 [husky](https://github.com/typicode/husky)
+
 
 ### [editorconfig](https://github.com/editorconfig)
 
 ## 配置文件
 
+### [.eslintrc.js](./.eslintrc.js)
+
 ### [.stylelintrc.js](./.stylelintrc.js)
 
 ### [.editorconfig](./.editorconfig)
 
-### [VScode setting.json](./.vscode/setting.json)
+### [VScode setting.json](./.vscode/settings.json)
